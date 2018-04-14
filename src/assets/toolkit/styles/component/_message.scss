@@ -1,0 +1,23 @@
+.message {
+	border-radius: $border-radius;
+	min-height: 40px;
+	padding: $spacing-default;
+}
+
+.message--error {
+	background-color: rgba($color-tertiary, 0.1);
+	border: 1px solid $color-tertiary;
+	color: darken($color-tertiary, 10%);
+}
+
+.message--success {
+	background-color: rgba($color-secondary, 0.1);
+	border: 1px solid $color-secondary;
+	color: darken($color-secondary, 10%);
+}
+
+.message--warning {
+	background-color: rgba($color-pale-grey, 0.1);
+	border: 1px solid $color-pale-grey;
+	color: $color-pale-grey;
+}

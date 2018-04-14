@@ -1,0 +1,36 @@
+button,
+input[type="submit"],
+.button {
+	border-radius: $spacing-tiny;
+	padding: $spacing-small $spacing-default;
+	position: relative;
+
+	background-color: $color-secondary;
+	border: none;
+	color: $color-white;
+	cursor: pointer;
+	font-family: $font-family-heading;
+	font-weight: $font-weight-bold;
+	outline: none;
+	text-transform: uppercase;
+
+	&:before {
+		content: "";
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+
+		background-color: rgba($color-white, 0.3);
+		opacity: 0;
+		transition: 0.2s opacity ease;
+	}
+
+	@include active-states() {
+		&:before {
+			opacity: 1;
+		}
+	}
+}

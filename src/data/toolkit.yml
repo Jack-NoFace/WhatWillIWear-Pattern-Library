@@ -1,0 +1,10 @@
+colors:
+  primary:
+    Dark: "#1F1F1F"
+    Light: "#f5f6fa"
+  secondary:
+    Blue: "#00a8ff"
+    Green: "#4cd137"
+    Dark Blue: "#273c75"
+    Orange: "#e84118"
+    Yellow: "#fbc531"

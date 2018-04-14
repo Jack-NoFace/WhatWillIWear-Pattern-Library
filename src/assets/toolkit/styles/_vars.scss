@@ -1,0 +1,35 @@
+$bp-mobile-small: 320px;
+$bp-mobile: 375px;
+$bp-mobile-large: 425px;
+$bp-tablet-small: 600px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
+$bp-desktop-medium: 1440px;
+$bp-desktop-large: 1920px;
+
+$border-radius: 2px;
+
+$color-black: #1f1f1f;
+$color-white: #f5f6fa;
+$color-grey: darken($color-white, 30%);
+$color-grey-light: darken($color-white, 2.5%);
+
+$color-primary: #00a8ff;
+$color-secondary: #4cd137;
+$color-tertiary: #e84118;
+
+$color-blue: #273c75;
+$color-pale-grey: #353b48;
+$color-yellow: #fbc531;
+
+$font-family-default: "Roboto", sans-serif;
+$font-family-heading: "Montserrat", sans-serif;
+
+$font-weight-default: 400;
+$font-weight-bold: 700;
+
+$spacing-tiny: 4px;
+$spacing-small: 8px;
+$spacing-default: 16px;
+$spacing-large: 32px;
+$spacing-huge: 64px;
